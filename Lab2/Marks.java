@@ -1,3 +1,6 @@
+/*Wriite a C/Java program to accept the CIE marks (Out of 50) and SEE marks (Out of
+100) of a student and print his/her grade. Use if… elseif ladder*/
+
 import java.lang.*;
 import java.util.Scanner;
 
