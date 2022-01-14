@@ -1,3 +1,10 @@
+/*Write a C/Java program to accept a number n from the user and print n rows of output
+as given below if n=4.
+1
+2 3
+4 5 6
+7 8 9 10 */
+    
 import java.lang.*;
 
 class Numpattern {
