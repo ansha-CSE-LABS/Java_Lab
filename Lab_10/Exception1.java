@@ -2,7 +2,7 @@ import java.util.*;
 
 class WrongAge extends Exception {
     public String toString() {
-        return " Son's age can not be equal to father's age\n";
+        return " Son's age can not be greater than or equal to father's age\n";
     }
 }
 
@@ -23,7 +23,7 @@ class Son extends Father {
     }
 
     void checkAge() throws WrongAge {
-        if (fatherAge == sonAge) {
+        if (fatherAge <= sonAge) {
             throw new WrongAge();
         }
     }
