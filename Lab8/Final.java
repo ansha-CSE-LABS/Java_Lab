@@ -23,7 +23,7 @@ public class Final {
         }
 
         for (i = 0; i < n; i++) {
-            cie[i].display();
+            student[i].display();
             for (j = 0; j < 5; j++) {
                 System.out.println("Final marks in subject" + (j + 1) + " : "
                         + (cie[i].cie_marks[j] + ((see[i].see_marks[j]) / 2.0)));
